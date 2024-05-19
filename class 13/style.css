@@ -1,0 +1,50 @@
+/* .para::first-line{
+    font-size: 50px;
+} */
+/* .link:visited {
+  color: red;
+  background-color: black;
+} */
+/* .inp:hover {
+    background-color: aqua;
+    transition-duration: 1s;
+    }
+    .inp:focus {
+    background-color: yellowgreen;
+    color: white;
+    }
+
+    .btn:active {
+    background-color: yellow;
+    } */
+
+.para {
+    width: 550px;
+    height: 550px;
+    overflow: scroll;
+    text-transform: lowercase;
+    word-spacing: 5px;
+    letter-spacing: 5px;
+}
+
+/* .btn{
+    all: unset;
+    border-color: black;
+    border-width: 50px;
+    border-style:  groove;
+    border: 1px solid black;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding: ;
+    margin: 5px;
+    border: 1px solid black;
+    display: inline;
+    margin: auto;
+} */
+/* .btn:hover{
+    background-color: black;
+    color: white;
+    transition-duration: 1s;
+} */

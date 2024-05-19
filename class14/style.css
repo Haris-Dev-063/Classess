@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* .inline {
+  display: inline-block;
+  border: 1px solid black;
+  width: 50px;
+}
+.main-div {
+  display: inline-block;
+}
+.float {
+  float: right;
+}
+.hidden {
+  visibility: hidden;
+} */
+/* .box{
+    border: 1px solid black;
+    width: 150px;
+    height: 150px;
+    margin-left: 150px;
+    margin-top: 150px;
+    box-shadow: 0px 0px 2px rgb(88, 88, 88);
+} */
+.width {
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 50px 250px;
+}
+.center {
+  text-align: center;
+  color: green;
+}
+.para{
+    margin-left: 150px;
+}
+.city{
+    display: inline-block;
+    margin-left: 150px;
+}
+.intitute{
+    display: inline-block;
+    margin-left: 200px;
+}
+.course{
+    display: inline-block;
+    margin-left: 200px;
+}
+select{
+    width: 100px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    .display {
+      display: flex;
+      justify-content: center;
+    }
+    .none {
+      display: none;
+    }
+    .display1 {
+      display: none;
+    }
+  </style>
+  <body>
+    <!-- Card -->
+    <div class="display">
+      <div style="width: 256px">
+        <img src="./MainAfter.webp" width="100%" alt="" />
+        <h1>Title</h1>
+        <p>Description</p>
+      </div>
+      <div style="width: 256px">
+        <img src="./MainAfter.webp" width="100%" alt="" />
+        <h1>Title</h1>
+        <p>Description</p>
+      </div>
+      <div style="width: 256px">
+        <img src="./MainAfter.webp" width="100%" alt="" />
+        <h1>Title</h1>
+        <p>Description</p>
+      </div>
+    </div>
+    <button id="btn" onclick="see_More()" class="display">See more</button>
+    <div class="display">
+      <div id="n" class="none" style="width: 256px">
+        <img src="./MainAfter.webp" width="100%" alt="" />
+        <h1>Title</h1>
+        <p>Description</p>
+      </div>
+      <div id="o" class="none" style="width: 256px">
+        <img src="./MainAfter.webp" width="100%" alt="" />
+        <h1>Title</h1>
+        <p>Description</p>
+      </div>
+      <div id="e" class="none" style="width: 256px">
+        <img src="./MainAfter.webp" width="100%" alt="" />
+        <h1>Title</h1>
+        <p>Description</p>
+      </div>
+    </div>
+    <button onclick="see_Less()" id="button" class="display1">See Less</button>
+
+    <script src="app.js"></script>
+  </body>
+</html>

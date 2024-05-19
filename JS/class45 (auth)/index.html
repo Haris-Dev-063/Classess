@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-auth.js"></script>
+  </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    .main {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      height: 100vh;
+    }
+    .container {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .main-1 {
+      /* border: 1px solid black; */
+      /* box-shadow: 10px, 50px, 10px, black; */
+      box-shadow: 0px 0px 20px rgba(151, 151, 151, 0.582);
+      padding: 55px;
+      background-color: #00000069;
+      backdrop-filter: blur(20px);
+      border-radius: 25px;
+    }
+    .h1 {
+      text-align: center;
+      margin-bottom: 30px;
+      text-decoration: underline;
+      font-size: 40px;
+      color: white;
+    }
+    .inp {
+      all: unset;
+      min-width: 250px;
+      font-size: x-large;
+      border: 1px solid white;
+      color: white;
+      border-radius: 10px;
+      padding: 5px 8px;
+    }
+    .btn {
+      all: unset;
+      min-width: 250px;
+      font-size: x-large;
+      border: 1px solid white;
+      border-radius: 10px;
+      padding: 5px;
+      text-align: center;
+      cursor: pointer;
+      transition: all 0.5s;
+      color: white;
+    }
+    .btn:hover {
+      background-color: white;
+      color: black;
+    }
+    .main {
+      background-image: url("./triangles-1430105_1280.webp");
+      background-size: cover;
+    }
+  </style>
+  <body>
+    <div class="main">
+      <div class="main-1">
+        <h1 class="h1">Sign UP (Auth)</h1>
+        <div class="container">
+          <input id="email" class="inp" type="email" />
+          <input id="password" class="inp" type="password" />
+          <button onclick="signUpNewUser()" class="btn">SignUp</button>
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>

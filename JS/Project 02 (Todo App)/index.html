@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    /* .main {
+      display: flex;
+      justify-content: center;
+      margin-top: 250px;
+    } */
+    #ul {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+    .li{
+        display: flex;
+    }
+    .container {
+      display: flex;
+      width: 25%;
+      justify-content: center;
+      border: 1px solid black;
+      border-radius: 20px;
+      height: 500px;
+    }
+    .container-1 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100dvh;
+    }
+    .main {
+      margin-top: 50px;
+    }
+  </style>
+  <body>
+    <div class="container-1">
+      <div class="container">
+        <div class="main">
+          <input id="inp" type="text" />
+          <button onclick="addValue()">add</button>
+          <button>deleteAll</button>
+        </div>
+        <ul id="ul"></ul>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>

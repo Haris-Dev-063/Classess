@@ -1,0 +1,48 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+/* .list{    */
+    /* list-style-type: lower-greek; */
+    /* list-style-image: url("https://cdn.pixabay.com/photo/2015/04/19/08/32/marguerite-729510_640.jpg"); */
+    /* height: 5px; */
+
+    /* list-style-position: inside; */
+    /* list-style: inside circle; */
+/* } */
+/* .nav{
+    display: inline-block;
+} */
+/* .table{ */
+    /* border: 1px solid black; */
+    /* border-collapse: separate; */
+    /* border-spacing: 25px 20px; */
+/* } */
+/* .btn{
+    cursor: nw-resize;
+} */
+/* .list{ */
+    /* list-style-image: url(./Screenshot\ 2024-02-13\ 233415.png); */
+    /* list-style-type: lower-greek; */
+    
+/* } */
+
+.main{
+    border: 1px solid black;
+    display: inline-block;
+}
+h1{
+    border: 1px solid black;
+    display: inline-block;
+    /* margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px; */
+    /* margin: 10px 20px ;
+    padding: 30px 20px ; */
+    /* padding-top: 15px;
+    padding-left: 5px;
+    padding-bottom: 15px;
+    padding-right: 5px; */
+
+}
